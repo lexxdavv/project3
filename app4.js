@@ -47,7 +47,6 @@ function apicallSpotify(weather) {
 
 
  // client_ID = "Client ID b8972c1e985f493a9ee8bdc73c9d7252";
-  accessToken = "BQBdPHz3H2ht_6LWhVGNyqdL87oxZCYW6xgK5KMgql5FxD11k_m_IdCfTv2sF2FDyt3bjmjCtOumPfrfLhWZIXUV-l-ezdq4UuHzSJtYBdPNYL4puRAElCwOD_PkgQJU5ngFFg0PJop5m6KlwJxRP9nP2Orb30LrDIzORCo";
   
   playlist_id = playlist[0];
   console.log(accessToken);
