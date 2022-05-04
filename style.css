@@ -1,12 +1,18 @@
 @font-face {
-  font-family: 'Akg';
+  font-family: 'Akg1';
   src: url('fonts/Akzidenz-Grotesk-BQ-Light-Extended_2826.ttf') format('truetype'); 
-  }
+}
+@font-face {
+  font-family: 'Akg';
+  src: url('fonts/Akzidenz-Grotesk-BQ-Light-Condensed_2824.ttf') format('truetype'); 
+}
+
 
 h1 {
   text-align: center;
   font-family: 'Akg';
   font-size:48px;
+  padding-top: 10%;
   }
 
   body {
@@ -33,4 +39,10 @@ h1 {
     width:50%;
     margin-left:25%;
     margin-right:25%;
+    height: 10%;
+    font-size: 200%;
+    font-family: 'Akg1';
+    background-color: rgba(250, 235, 215, 0.382);
+    border-radius: 10px;
+  
 }
