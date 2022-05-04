@@ -13,7 +13,7 @@ function getLocation() {
     let key = '03929d38fd6e7848f6c6eeb58f34fbc7';
     let lang = 'en';
     let units = 'imperial';
-    let url = `http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=${units}&lang=${lang}`;
+    let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=${units}&lang=${lang}`;
     //fetch the weather
     fetch(url)
       .then((resp) => {
@@ -47,7 +47,7 @@ function apicallSpotify(weather) {
 
 
  // client_ID = "Client ID b8972c1e985f493a9ee8bdc73c9d7252";
-  accessToken = "BQBuvJN4OGNAo3cbZmGRAO0sN8wYRKLN8AQaal4B7PGVfOvLzlJajC--iAzz_uJAq-ml7jsWw-efTt9pFin_BCuEsxxUZPsiGBpFeJwOwiHy25Jf6GBasiOsZU0GkJ7rZpKD0uZmypNj6y7nP5hEzTgQOucW1m9nVdlJabI";
+  accessToken = "BQBdPHz3H2ht_6LWhVGNyqdL87oxZCYW6xgK5KMgql5FxD11k_m_IdCfTv2sF2FDyt3bjmjCtOumPfrfLhWZIXUV-l-ezdq4UuHzSJtYBdPNYL4puRAElCwOD_PkgQJU5ngFFg0PJop5m6KlwJxRP9nP2Orb30LrDIzORCo";
   
   playlist_id = playlist[0];
   console.log(accessToken);
